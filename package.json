@@ -1,0 +1,22 @@
+{
+  "name": "sauce_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "npx playwright test --ui",
+    "e2e-headless": "npx playwright test",
+    "show-report": "npx playwright show-report",
+    "prettier-format": "npx prettier --write .",
+    "prettier-check": "npx prettier --check ."
+  },
+  "keywords": [],
+  "author": "Sylwia Woźniak",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.20",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.2.5"
+  }
+}

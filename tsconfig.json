@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "paths": {
+      "@fixtures/*": ["playwright/fixtures/*"],
+      "@pageObject/*": ["playwright/pageObject/*"],
+      "@playwrightSelectors/*": ["playwrightSelectors/*"],
+      "@utils/*": ["playwright/utils/*"],
+    }
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.auth/
+.prettierrc
+package-lock.json
+package.json
+playwright.config.ts
+tsconfig.json
